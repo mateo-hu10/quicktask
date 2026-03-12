@@ -1,1 +1,154 @@
+body {
 
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+
+display: flex;
+justify-content: center;
+
+padding: 40px;
+
+}
+
+.dashboard {
+
+width: 400px;
+background: white;
+
+padding: 25px;
+
+border-radius: 12px;
+
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
+}
+
+h1 {
+
+text-align: center;
+color: #5c6ac4;
+
+}
+
+.task-input {
+
+display: flex;
+gap: 10px;
+
+margin-bottom: 15px;
+
+}
+
+.task-input input,
+.task-input select {
+
+padding: 8px;
+border-radius: 6px;
+border: 1px solid #ccc;
+
+}
+
+.task-input input {
+
+flex: 1;
+
+}
+
+.task-input button {
+
+background: #5c6ac4;
+color: white;
+
+border: none;
+
+padding: 8px 12px;
+
+border-radius: 6px;
+
+cursor: pointer;
+
+}
+
+.badge {
+
+margin-bottom: 15px;
+
+font-weight: bold;
+
+}
+
+.task-list {
+
+list-style: none;
+
+padding: 0;
+
+}
+
+.task-list li {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 12px;
+
+background: #f7f7f7;
+
+border-radius: 8px;
+
+margin-bottom: 8px;
+
+}
+
+.task-left {
+
+display: flex;
+
+align-items: center;
+
+gap: 10px;
+
+}
+
+.task-text {
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+.task-text small {
+
+font-size: 12px;
+
+color: gray;
+
+}
+
+.completed span {
+
+text-decoration: line-through;
+
+opacity: 0.6;
+
+}
+
+.delete-btn {
+
+background: #ff5c5c;
+
+color: white;
+
+border: none;
+
+padding: 5px 10px;
+
+border-radius: 6px;
+
+cursor: pointer;
+
+}
